@@ -27,9 +27,11 @@
     "mongoose": "^5.13.14",
     "mongoose-type-email": "^1.1.2",
     "multer": "^2.0.0-rc.2",
+    "netlify-lambda": "^2.0.15",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
+    "serverless-http": "^3.0.1",
     "uuid": "^8.3.2"
   }
 }
