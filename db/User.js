@@ -19,6 +19,10 @@ let schema = new mongoose.Schema(
       enum: ["seller", "buyer"],
       required: true,
     },
+    token: {
+      type: String,
+      default: ''
+    }
   },
   { collation: { locale: "en" } }
 );
